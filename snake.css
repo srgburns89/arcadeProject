@@ -1,0 +1,87 @@
+
+
+
+
+    .board {
+     /* margin: 0; */
+    /* padding: 0; */
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    /* grid-template-rows: (100px 1fr); */
+    }
+   
+
+   
+
+    .score {
+    display: grid;
+    grid-row: 1;
+    text-align: center;
+    margin: 2vmin;
+    font-size: 4vmin;
+    }   
+
+    .now ,.best{
+        margin: 4vmin;
+    }
+
+    #current {
+        /* font-size: 4vmin; */
+        color: black;
+
+    }
+ 
+
+    #snake-canvas {
+    display: grid;
+    position: fixed;
+    right: 30%;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    border: 1vmin solid blue;
+   
+   }
+
+   #restart {
+    /* top: 50%; */
+    /* left: 600px; */
+    background-color: black;
+    color: yellow;
+    font-size: 4vmin;
+    text-align: center;
+    /* color: black; */
+    display: none;
+   }
+
+   .new-game-button {
+    font-size: 5vmin;
+    margin: 1vmin;
+    padding: 2vmin;
+    border-radius: 10px;
+    background-color: yellow;
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+.arcadelinks{
+    position: fixed;
+    bottom: 5%;
+    display: flex;
+    justify-content: space-between ;
+  
+    
+    
+  
+    font-family: fantasy;
+    background-color: yellow;
+    border-radius: 4vmin;
+    font-size: 2rem;
+    text-align: center;
+    padding: 1vmin;
+    text-decoration: none;
+  
+}
+
+   
+ 

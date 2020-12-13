@@ -1,0 +1,129 @@
+
+
+
+.game-board {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 4vmin;
+}
+
+.game{
+    border-radius: 10%;
+    padding: 3vmin;
+    /* box-shadow: 2px 2px 2px 2px black; */
+
+}
+.game-name {
+    text-align: center;
+    padding: 2vmin;
+    
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(7, 10vmin);
+    grid-template-rows: repeat(6, 10vmin);
+    margin: 2min;
+    background-color: #0E7BFF;
+    border: 3vmin solid #0E7BFF;
+    border-top: 1vmin solid #0E7BFF;
+    
+    
+    
+}
+
+
+.cell {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    border: 1vmin solid #0E7BFF;
+    font-size: 10vmin;
+    color: red;
+    font-weight: bold;
+    border-radius: 10vmin;
+}
+
+.taken {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    border: 1vmin solid yellow;
+    font-size: 10vmin;
+    color: red;
+    font-weight: bold;
+    border-radius: 10vmin;
+
+}
+
+
+.cell:active, .cell:hover {
+    cursor: pointer;
+    color: black;
+    background-color: lightblue;
+
+}
+
+.cell-content {
+
+    overflow: hidden;
+    width: 20vmin;
+    height: 8vmin;
+    border-radius: 5vmin;
+
+
+
+}
+
+.populated {
+    width: 12vmin;
+    height: 12vmin;
+}
+
+.red {
+    background-color: red;
+    color: red;
+    /* transition: width 2s, height 2s, transform s; */
+}
+
+.black {
+    background-color: black;
+    color: black;
+}
+
+.modal-overlay {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    /* position: absolute; */
+    font-size: 8vmin;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    /* background-color:yellow ; */
+
+}
+
+.game-result-modal {
+    display: grid;
+    /* grid-gap: 5vmin; */
+    justify-content: center;
+    align-items: center; 
+    align-content: center;
+}
+
+.new-game-button {
+    display: flex;
+    justify-content: center;
+    font-size: 5vmin;
+    margin: 1vmin;
+    padding: 2vmin;
+    border-radius: 10px;
+    background-color: yellow;
+    box-shadow: 2px 2px 2px 2px black;
+}

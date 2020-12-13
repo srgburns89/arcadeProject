@@ -1,0 +1,53 @@
+<html>
+  <head>
+      <title>Snake!</title>
+    <link href="https://fonts.googleapis.com/css?family=Coda|Codystar|Jacques+Francois+Shadow|Unica+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="snake.css" />
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script defer src="snake.js" type="module"></script>
+  </head>
+  <body>
+    <header>
+        <span class="name">ARCADE GAMES</span>
+        <nav class="links">
+            <a class="active" href="index.html">Home Page</a>
+            
+          </nav>
+        
+            </header>
+  
+
+    <div class="board">
+
+     
+      <div class="score">
+        
+        <h1><span class="now">SCORE:<span id="current">0</span></h1> 
+   </div>
+       
+       </div>
+
+       <div id="restart">
+        GAME OVER
+        <br>
+        Your score was <span id="final"></span>
+        <br>
+        <button class="new-game-button" onClick="window.location.reload()" href="#">RESTART GAME</button>
+       </div>
+     
+     <canvas id="snake-canvas" width="600" height="450"> 
+  
+     </canvas>
+     
+    </div>
+
+
+  </div>
+
+
+   
+   
+   </body>
+</html>

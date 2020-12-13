@@ -1,0 +1,31 @@
+.intro {
+    margin-top: 4rem;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    border: 2px solid black;
+    
+    color:yellow;
+    font-family: fantasy;
+    padding:1rem;
+}
+
+aside {
+    display: flex;
+    justify-content: center;
+    padding: 5rem
+}
+
+.game-links button {
+    display: flex;
+    
+    
+ 
+    font-family: fantasy;
+    background-color: yellow;
+    font-size: 2rem;
+    text-align: center;
+
+
+}
+
